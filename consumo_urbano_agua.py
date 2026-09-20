@@ -20,14 +20,15 @@ imovel = input("Prezado cliente!\nQual é o seu tipo de imóvel (comercial, casa
 
 # **Processamento e saída de dados:**
 # Validação do tipo de imóvel inserido pelo usuário. 
-# O programa utiliza a estrutura de decisão match:case para classificar o consumo mensal de água (em m³) de diferentes tipos de imóveis urbanos.
 # Aplicação das regras de negócio para classificar o tipo de imóvel e no consumo mensal informado.
-if imovel in ["comercial"]: # Aplica a tarifa comercial para imóveis comerciais.
+# if, elif e else são estruturas de decisão que permitem executar diferentes blocos de código com base em condições específicas.
+if imovel in ["comercial"]: # Aplica if para imóveis comerciais, que não possuem classificação de consumo.
     print("Tarifa comercial aplicada – Consulte o Plano corporativo.")
 elif imovel in ["casa", "apartamento"]: # Continuação da aplicação das regras de negócio com base no tipo de imóvel e no consumo mensal de água.
     consumo = float(input("E qual é o seu consumo mensal de água em m³ (Utilize pontos para no lugar de vírgulas): ")) 
-    # Validação e classificação do consumo de água.
-    match consumo:
+# Validação e classificação do consumo de água.
+# O programa utiliza a estrutura de decisão match:case para classificar o consumo mensal de água (em m³) de diferentes tipos de imóveis urbanos.
+    match consumo: # match:case é uma estrutura de decisão que permite comparar o valor da variável consumo com diferentes padrões (cases) e executar blocos de código específicos com base na correspondência encontrada.
         case _ if imovel == "apartamento" and consumo < 10:
             print(f"Valor do consumo: {consumo:.2f} m³")
             print("CONSUMO ECONÔMICO – excelente controle de água!") # Imovvel tipo apartamento com consumo menor que 10 m³.
@@ -38,8 +39,9 @@ elif imovel in ["casa", "apartamento"]: # Continuação da aplicação das regra
         case _:
             print(f"Valor do consumo: {consumo:.2f} m³")
             print("CONSUMO EXCESSIVO – adote medidas de economia e verifique vazamentos.") # Imovveis tipo apartamento e casa com consumo acima de 25 m³.
-else:
+else: # Caso o usuário insira um tipo de imóvel inválido, o programa exibe uma mensagem de erro.
     print("Tipo de imóvel inválido. Escolha comercial, casa ou apartamento.")
+    
 # Finalização do programa com uma mensagem de agradecimento ao usuário.
 print("=" * 51)
 print("Obrigado por utilizar nosso Classificador de Consumo de Água!")

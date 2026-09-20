@@ -21,13 +21,19 @@
 
 ## 💻 Sintaxe do código
 
-👩‍💻 **A estrutura de decisão match**, compara o valor da variável **consumo** com os valores especificados de case de negócio **imóvel**
+👩‍💻 As estruturas de decisão **if/elif/else** executam diferentes blocos de código com base nas regras de negócio.
+
+👩‍💻 As estruturas de decisão **match:case**, compara o valor da variável **consumo** com os valores especificados de cada case de negócio **imóvel**
+
+👩‍💻 Execução de blocos de códigos específicos com base na correspond6encia encontrada.
 
 ---
 
 ## ⚙️ Instruções da execução do sistema
 
-- Solicita ao usuário o tipo de imóvel em função da validação do tipo de negócio;
-- O programa solicita ao usuário que informe o consumo mensal em m³ de água, utilizando ponto para casa decimal;
-- A estrutura de decisão match:case permite validar e classificar o consumo mensal de água
+🔩 Solicita ao usuário o tipo de imóvel em função da validação do tipo de negócio;
+
+🗜️ O programa solicita ao usuário que informe o consumo mensal em m³ de água, utilizando ponto para casa decimal;
+
+🪛 A estrutura de decisão match:case permite validar e classificar o consumo mensal de água.
   
