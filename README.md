@@ -9,13 +9,17 @@
 - Conscientização ambiental aos moradores de imóveis urbanos.
 
 ---
-
-## ⌨️ Linguagem do projeto
-
-![Logotipo da linguagem de programação Python](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg)
-![Logotipo da linguagem de marcação Markdown](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg)
-![Logotipo da plataforma de hospedagem de código Git](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg)
-![Logotipo do editor de código Visual Studio Code](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg)
+### 🛠️ Linguagens do projeto 
+<div style="display: inline_block"><br>
+  <img align="center" alt="Python" height="40" width="40"
+src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
+  <img align="center" alt="Git" height="40" width="40"
+src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
+  <img align="center" alt="VS Code" height="40" width="40"
+src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg">
+   <img align="center" alt="Markdown" height="40" width="40"
+src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg">
+</div>	
 
 ---
 
